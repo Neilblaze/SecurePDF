@@ -24,6 +24,27 @@ export default function Nav() {
             line-height: 1.4rem;
             color: #808493;
           }
+
+          @media only screen and (min-width: 768px) {
+            .hero p {
+              font-size: 1.4rem;
+              font-weight: 300;
+              line-height: 2.1rem;
+              max-width: 550px;
+              margin: 0 auto;
+            }
+          }
+          .hero strong {
+            color: #373a3c;
+          }
+          @media only screen and (max-width: 767px) {
+            .hero {
+              margin: 0;
+            }
+            .hero h1 {
+              line-height: 2rem;
+            }
+          }
         `}
       </style>
       <style jsx global>
@@ -31,6 +52,12 @@ export default function Nav() {
           .hero .button {
             margin-top: 8px;
             margin-right: 10px;
+          }
+
+          @media only screen and (min-width: 768px) {
+            .hero .button {
+              margin: 20px 6px;
+            }
           }
         `}
       </style>
