@@ -16,6 +16,18 @@ export default function HowItWorks() {
             box-shadow: 0 3px 16px rgba(0, 0, 0, 0.2);
             color: white;
           }
+          @media only screen and (min-width: 768px) {
+            .how-it-works-boxes {
+              display: grid;
+              grid-template-columns: auto auto auto;
+              grid-gap: 30px;
+            }
+
+            a {
+            text-decoration: none;
+            style="color:blue;"
+            }
+          }
         `}
       </style>
       <div className="how-it-works-boxes">
@@ -26,7 +38,29 @@ export default function HowItWorks() {
           <p>
             SecurePDF takes the pdf as input from the Admin.
           </p>
-        </div
+        </div>
+
+        <div className="how-it-works-description">
+          <h3>
+            <span>2</span> Process
+          </h3>
+          <p>
+            Upon taking the input the file is then proecessed through a <b>secret method</b> & the processed file is then stored in a .zip
+          </p>
+        </div>
+
+        <div className="how-it-works-description">
+          <h3>
+            <span>3</span> Output
+          </h3>
+          <p>
+            Upon successful processing of the file, the file can be opened by the {" "}
+            <a href="gandu.bdsk/">Baal bichi</a>.{" "}
+          </p>
+          <p>
+            Gand Marao
+          </p>
+        </div>
       </div>
     </>
   );
