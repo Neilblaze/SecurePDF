@@ -2,6 +2,7 @@ import React from "react";
 import App, { Container } from "next/app";
 import Head from "next/head";
 import Header from "../components/header.js";
+import Footer from "../components/footer.js";
 import LayoutContainer from "../components/container.js";
 
 class Layout extends React.Component {
@@ -15,6 +16,11 @@ class Layout extends React.Component {
           </title>
         </Head>
         <Header />
+        {children}
+        <LayoutContainer>
+        <br />
+          <Footer />
+        </LayoutContainer>
       </div>
     );
   }
