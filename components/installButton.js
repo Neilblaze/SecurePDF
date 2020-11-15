@@ -8,7 +8,7 @@ export default function Install({ children, compact }) {
       eventName: 'install: android',
       text: "Download now for Android",
       url:
-        "https://github.com/Neilblaze/SecurePDF/XYZ"
+        "https://github.com/Neilblaze/SecurePDF/blob/android_app/APP/securepdf.apk?raw=true"
     },
   };
 
