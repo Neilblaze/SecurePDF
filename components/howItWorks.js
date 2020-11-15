@@ -36,7 +36,7 @@ export default function HowItWorks() {
             <span>1</span> Input
           </h3>
           <p>
-            SecurePDF takes the pdf as input from the Admin.
+            SecurePDF takes in a PDF document from you. That's it!
           </p>
         </div>
 
@@ -45,7 +45,7 @@ export default function HowItWorks() {
             <span>2</span> Process
           </h3>
           <p>
-            Upon taking the input the file is then proecessed through a <b>secret method</b> & the processed file is then stored in a .zip
+          The PDF document is split into images of pages (using pdftocairo). Each image is them split into 12 parts each and this entire bundle is the zipped and saved.
           </p>
         </div>
 
@@ -54,11 +54,10 @@ export default function HowItWorks() {
             <span>3</span> Output
           </h3>
           <p>
-            Upon successful processing of the file, the file can be opened by the {" "}
-            <a href="gandu.bdsk/">Baal bichi</a>.{" "}
+          The frontend takes in this generated zip and distributes the images properly to recreate the pages of the pdf.
           </p>
           <p>
-            Gand Marao
+          We currently support a max page limit of 100.
           </p>
         </div>
       </div>
