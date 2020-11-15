@@ -1,2 +1,2 @@
-# Clistroprimz
+# PseudoDocs
 Something cool 🔥🎭
