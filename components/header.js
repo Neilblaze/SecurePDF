@@ -55,6 +55,10 @@ export default function Nav() {
         <Container>
           <nav className="nav">
             <div className="nav-menu-wrapper">
+              <Link href="/#how-it-works">
+                <span className="nav-item">
+                  How it works?
+                </span>
               </Link>
             </div>
             <div className="right">
