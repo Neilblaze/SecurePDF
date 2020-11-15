@@ -34,6 +34,15 @@ export default function Button({
           text-decoration: none;
         }
 
+        @media only screen and (min-width: 768px) {
+          .button {
+            line-height: 58px;
+            border-radius: calc(58px / 2);
+            height: 58px;
+            padding: 0 26px;
+          }
+        }
+
         .button.compact {
           line-height: 45px;
           font-size: 13px;
