@@ -113,7 +113,7 @@ npm install npm@latest -g
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/sandipndev/secure-pdf.git
+git clone https://github.com/Neilblaze/SecurePDF.git
 cd secure-pdf
 ```
 
