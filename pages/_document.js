@@ -22,7 +22,7 @@ export default class NextSite extends Document {
           />
           <meta
             property="og:image"
-            content="https://raw.githubusercontent.com/Neilblaze/SecurePDF/images-vault/img_vault/screenshot.png"
+            content="https://raw.githubusercontent.com/Neilblaze/SecurePDF/images-vault/img_vault/share_pdf.png"
           />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta

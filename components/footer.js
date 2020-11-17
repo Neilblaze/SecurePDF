@@ -23,6 +23,7 @@ export default function Footer() {
             font-size: 0.8rem;
             line-height: 1.2rem;
             color: #999;
+            padding-top: 10px;
           }
 
           @media only screen and (max-width: 767px) {
@@ -31,7 +32,7 @@ export default function Footer() {
             }
 
             .footer a {
-              margin-left: 15px;
+              margin-left: 0px;
             }
 
             .footer-logo {
@@ -47,11 +48,8 @@ export default function Footer() {
             .footer a {
               display: inline;
               margin-right: 0;
-              margin-left: 20px;
             }
 
-            .microspace {}
-          }
         `}
       </style>
       <span>&copy; SecurePDF 2020</span>
@@ -62,7 +60,7 @@ export default function Footer() {
  
 
       <div className="note">
-        Crafted with ❤️ for <a class="microspace" href="https://google.com">Def Hacks | GLOBAL 2.0</a> by <a class="microspace" href="https://github.com/Neilblaze">Pratyay</a>, <a class="microspace" href="https://github.com/sandipndev">Sandipan</a> & <a class="microspace" href="https://github.com/fias786">Saif</a>
+        Crafted with ❤ for <a href="https://defhacks.co/hackathons/global_2.0">Def Hacks | GLOBAL 2.0</a> by <a href="https://github.com/Neilblaze">Pratyay</a>, <a href="https://github.com/sandipndev">Sandipan</a> & <a href="https://github.com/fias786">Saif</a>
         <br />
       </div>
     </div>

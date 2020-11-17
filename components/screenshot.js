@@ -45,7 +45,7 @@ export default function Screenshot() {
         </HideOnMobile>
       </div>
       <p className="live-demo">
-        Check out the <a href="https://youtube.com/">Demo</a>, on Youtube!
+        Check out the <a href="https://youtu.be/wqDjAPXXzhY">Demo</a>, on Youtube!
       </p>
     </>
   );

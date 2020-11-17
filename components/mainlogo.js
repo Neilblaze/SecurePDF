@@ -10,7 +10,7 @@ export default function Mainlogo({src, width}) {
         `}
       </style>
       <div className="mainlogo">
-      <a href="https://github.com/Neilblaze/SecurePDF">
+      <a href="https://github.com/Neilblaze/SecurePDF/blob/android_app/APP/securepdf.apk?raw=true">
         <img src={src} width={width} />
       </a>
       </div>
